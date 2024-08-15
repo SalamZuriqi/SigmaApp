@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
+using SigmaApplication.Entities;
 namespace SigmaApplication.Models
 {
     public class CandidateConfiguration : IEntityTypeConfiguration<Candidate>
